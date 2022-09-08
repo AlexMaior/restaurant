@@ -1,0 +1,44 @@
+.navigationContainer {
+  position: fixed;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.sizeWhenScroll {
+  padding: 5px 0;
+}
+.sizeWhenNoScroll {
+  padding: 18px 0;
+}
+
+.navLink {
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.navLink:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navLink:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
