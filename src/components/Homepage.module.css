@@ -1,0 +1,118 @@
+.headerImg {
+  height: 100vh;
+  background-image: url(../images/bannerImg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleh2 {
+  color: tomato;
+  text-align: center;
+}
+.titleh1 {
+  color: white;
+}
+
+.dataContainer {
+  background-color: rgb(255, 255, 255);
+}
+
+.dataContainerDiv1 {
+  /* background-color: rgb(255, 156, 156); */
+}
+.dataContainerDiv2 {
+  background-color: rgb(192, 192, 192);
+}
+
+.sushiimg {
+  width: 200px;
+}
+
+@media only screen and (min-width: 300px) {
+  .titleh2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 0 13px 0 13px;
+    margin: 0;
+  }
+  .titleh1 {
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .dataContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dataContainerDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .dataContainerDiv1Description {
+    font-size: 25px;
+    padding: 10px 15px;
+  }
+  .dataContainerDiv2 {
+    text-align: center;
+  }
+  .chopContainer {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .leftChop,
+  .rightChop {
+    width: 60%;
+  }
+
+  .sushiIng {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .titleh2 {
+    font-size: 45px;
+  }
+  .titleh1 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .titleh2 {
+    font-size: 45px;
+  }
+  .titleh1 {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .titleh2 {
+    font-size: 55px;
+  }
+  .titleh1 {
+    font-size: 85px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .titleh2 {
+    font-size: 75px;
+  }
+  .titleh1 {
+    font-size: 125px;
+  }
+}

@@ -1,6 +1,7 @@
 .navigationContainer {
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .navigation {
@@ -12,9 +13,10 @@
 
 .sizeWhenScroll {
   padding: 5px 0;
+  background-color: rgb(208, 208, 208);
 }
 .sizeWhenNoScroll {
-  padding: 18px 0;
+  padding: 10px 0;
 }
 
 .navLink {
