@@ -65,13 +65,6 @@
   align-items: center;
 }
 
-.dataContainer2TitleContainer {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .chopContainer {
   margin: 0 auto;
   width: 50%;
@@ -85,13 +78,23 @@
 }
 
 .sushiIng {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+.dataContainer2TitleContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .dataContainer2Title {
   padding: 0 15px;
   font-size: 35px;
+  color: white;
 }
 
 .popDishContainer {

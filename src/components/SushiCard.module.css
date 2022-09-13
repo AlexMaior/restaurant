@@ -2,13 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .sushiSize {
-  width: 250px;
+  width: 200px;
 }
 
 .description {
+  margin: 0;
   color: white;
   font-size: 25px;
 }
