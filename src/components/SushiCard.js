@@ -1,6 +1,5 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
-import { ScrollRotate } from "react-scroll-rotate";
 import classes from "./SushiCard.module.css";
 
 const SushiCard = (props) => {
