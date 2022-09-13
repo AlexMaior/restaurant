@@ -1,0 +1,14 @@
+.sushiPopContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sushiSize {
+  width: 250px;
+}
+
+.description {
+  color: white;
+  font-size: 25px;
+}

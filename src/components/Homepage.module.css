@@ -12,73 +12,98 @@
 .titleh2 {
   color: tomato;
   text-align: center;
+  font-size: 35px;
+  text-align: center;
+  padding: 0 13px 0 13px;
+  margin: 0;
 }
 .titleh1 {
   color: white;
+  font-size: 55px;
+  margin: 0;
 }
 
 .dataContainer {
   background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
 }
 
 .dataContainerDiv1 {
   /* background-color: rgb(255, 156, 156); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
 }
+
+.dataContainerDiv1Description {
+  font-size: 25px;
+  padding: 10px 15px;
+}
+
 .dataContainerDiv2 {
   background-color: rgb(192, 192, 192);
+
+  text-align: center;
+}
+
+.dataContainerDiv2Description {
+  font-size: 35px;
 }
 
 .sushiimg {
   width: 200px;
 }
+.dataContainer2 {
+  background-image: url("../images/popDishBack2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dataContainer2TitleContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chopContainer {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftChop,
+.rightChop {
+  width: 60%;
+}
+
+.sushiIng {
+  width: 100px;
+  height: 100px;
+}
+
+.dataContainer2Title {
+  padding: 0 15px;
+  font-size: 35px;
+}
+
+.popDishContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sushi8 {
+  width: 50px;
+}
 
 @media only screen and (min-width: 300px) {
-  .titleh2 {
-    font-size: 35px;
-    text-align: center;
-    padding: 0 13px 0 13px;
-    margin: 0;
-  }
-  .titleh1 {
-    font-size: 55px;
-    margin: 0;
-  }
-
-  .dataContainer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .dataContainerDiv1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-  .dataContainerDiv1Description {
-    font-size: 25px;
-    padding: 10px 15px;
-  }
-  .dataContainerDiv2 {
-    text-align: center;
-  }
-  .chopContainer {
-    margin: 0 auto;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .leftChop,
-  .rightChop {
-    width: 60%;
-  }
-
-  .sushiIng {
-    width: 100px;
-    height: 100px;
-  }
 }
 
 @media only screen and (min-width: 700px) {
