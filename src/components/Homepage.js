@@ -34,30 +34,31 @@ const Homepage = () => {
         <h1 className={classes.titleh1}>New York </h1>
         <br />
         <br />
+        <br />
 
         <div className={classes.chilliContainer}>
-          <Parallax translateX={[120, -200]}>
+          <Parallax translateX={[200, -200]}>
             <img src={Chilli1} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[100, -150]}>
+          <Parallax translateX={[150, -150]}>
             <img src={Chilli2} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[60, -100]}>
+          <Parallax translateX={[90, -100]}>
             <img src={Chilli3} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[70, -100]}>
+          <Parallax translateX={[100, -100]}>
             <img src={Chilli4} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[-50, 200]}>
+          <Parallax translateX={[-30, 200]}>
             <img src={Chilli5} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[-150, 450]}>
+          <Parallax translateX={[-140, 450]}>
             <img src={Chilli6} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[-150, 400]}>
+          <Parallax translateX={[-180, 400]}>
             <img src={Chilli7} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[-50, 100]}>
+          <Parallax translateX={[-70, 100]}>
             <img src={Chilli8} alt="chilli" className={classes.chilli} />
           </Parallax>
         </div>
