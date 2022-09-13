@@ -34,16 +34,15 @@ const Homepage = () => {
         <h1 className={classes.titleh1}>New York </h1>
         <br />
         <br />
-        <br />
-        <br />
+
         <div className={classes.chilliContainer}>
-          <Parallax translateX={[100, -200]}>
+          <Parallax translateX={[120, -200]}>
             <img src={Chilli1} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[80, -150]}>
+          <Parallax translateX={[100, -150]}>
             <img src={Chilli2} alt="chilli" className={classes.chilli} />
           </Parallax>
-          <Parallax translateX={[40, -100]}>
+          <Parallax translateX={[60, -100]}>
             <img src={Chilli3} alt="chilli" className={classes.chilli} />
           </Parallax>
           <Parallax translateX={[70, -100]}>

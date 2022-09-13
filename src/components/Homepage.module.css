@@ -27,10 +27,14 @@
 
 .chilliContainer {
   transform: rotate(340deg);
-  width: 100%;
+  width: 120%;
   display: flex;
   align-items: baseline;
   justify-content: center;
+  overflow-x: hidden;
+}
+.chilli {
+  width: 80%;
 }
 
 .dataContainer {
