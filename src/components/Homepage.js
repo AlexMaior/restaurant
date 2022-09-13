@@ -17,6 +17,14 @@ import Sushi5 from "../images/sushi5.png";
 import Sushi6 from "../images/sushi6.png";
 import Sushi8 from "../images/sushi8.png";
 import SushiCard from "./SushiCard";
+import Chilli1 from "../images/chilli1.png";
+import Chilli2 from "../images/chilli2.png";
+import Chilli3 from "../images/chilli3.png";
+import Chilli4 from "../images/chilli4.png";
+import Chilli5 from "../images/chilli5.png";
+import Chilli6 from "../images/chilli6.png";
+import Chilli7 from "../images/chilli7.png";
+import Chilli8 from "../images/chilli8.png";
 
 const Homepage = () => {
   return (
@@ -24,6 +32,36 @@ const Homepage = () => {
       <div className={classes.headerImg}>
         <h2 className={classes.titleh2}>The best oriental food in </h2>
         <h1 className={classes.titleh1}>New York </h1>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className={classes.chilliContainer}>
+          <Parallax translateX={[100, -200]}>
+            <img src={Chilli1} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[80, -150]}>
+            <img src={Chilli2} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[40, -100]}>
+            <img src={Chilli3} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[70, -100]}>
+            <img src={Chilli4} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[-50, 200]}>
+            <img src={Chilli5} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[-150, 450]}>
+            <img src={Chilli6} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[-150, 400]}>
+            <img src={Chilli7} alt="chilli" className={classes.chilli} />
+          </Parallax>
+          <Parallax translateX={[-50, 100]}>
+            <img src={Chilli8} alt="chilli" className={classes.chilli} />
+          </Parallax>
+        </div>
       </div>
       <div className={classes.dataContainer}>
         <div className={classes.dataContainerDiv1}>
