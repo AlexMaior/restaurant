@@ -60,8 +60,9 @@
 }
 
 .dataContainerDiv2 {
-  background-color: rgb(192, 192, 192);
-
+  background-color: tomato;
+  overflow-x: hidden;
+  overflow-y: hidden;
   text-align: center;
 }
 
@@ -71,14 +72,6 @@
 
 .sushiimg {
   width: 200px;
-}
-.dataContainer2 {
-  background-image: url("../images/popDishBack2.jpg");
-  background-size: cover;
-  background-position: bottom;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .chopContainer {
@@ -90,12 +83,22 @@
 
 .leftChop,
 .rightChop {
-  width: 60%;
+  /* width: 60%; */
+  width: 20px;
 }
 
 .sushiIng {
   width: 150px;
   height: 150px;
+}
+
+.dataContainer2 {
+  background-image: url("../images/popDishBack.jpg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dataContainer2TitleContainer {
@@ -110,7 +113,7 @@
 .dataContainer2Title {
   padding: 0 15px;
   font-size: 35px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .popDishContainer {
@@ -120,6 +123,51 @@
 
 .sushi8 {
   width: 50px;
+}
+
+.dataContainer3 {
+  padding-top: 50px;
+  background: rgb(154, 188, 168);
+  background: linear-gradient(
+    180deg,
+    rgba(154, 188, 168, 1) 0%,
+    rgba(255, 99, 71, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dataContainer3Title {
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+}
+
+.dataContainer3MenuContainer {
+  width: 100%;
+
+  /* text-align: left; */
+}
+.dataContainer3Menu {
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid tomato;
+  border-radius: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  color: black;
+}
+
+.dataContainer3Menu:hover {
+  box-shadow: 0 0 20px tomato;
+}
+
+.dataContainer3Img {
+  width: 300px;
 }
 
 @media only screen and (min-width: 300px) {

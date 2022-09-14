@@ -15,6 +15,7 @@ import Sushi3 from "../images/sushi3.png";
 import Sushi4 from "../images/sushi4.png";
 import Sushi5 from "../images/sushi5.png";
 import Sushi6 from "../images/sushi6.png";
+import Sushi7 from "../images/sushi7.png";
 import Sushi8 from "../images/sushi8.png";
 import SushiCard from "./SushiCard";
 import Chilli1 from "../images/chilli1.png";
@@ -25,6 +26,7 @@ import Chilli5 from "../images/chilli5.png";
 import Chilli6 from "../images/chilli6.png";
 import Chilli7 from "../images/chilli7.png";
 import Chilli8 from "../images/chilli8.png";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -123,22 +125,36 @@ const Homepage = () => {
           <SushiCard img={Sushi6} description={"Sushi 6"} />
         </div>
       </div>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
+      <div className={classes.dataContainer3}>
+        <h2 className={classes.dataContainer3Title}>Delivery and Takeout</h2>
+        <div className={classes.dataContainer3MenuContainer}>
+          <Link to="/about" className={classes.dataContainer3Menu}>
+            M E N U
+          </Link>
+        </div>
+        <div>
+          <ScrollRotate loops={1} method={"perc"}>
+            <img
+              src={Sushi7}
+              className={classes.dataContainer3Img}
+              alt="sushi"
+            />
+          </ScrollRotate>
+        </div>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+      </div>
       <p>a</p>
       <p>a</p>
       <p>a</p>
