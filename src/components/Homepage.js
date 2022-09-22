@@ -235,13 +235,11 @@ const Homepage = () => {
           BOOK ONLINE
         </Link>
         <div className={classes.springrolsCont}>
-          <Parallax translateX={["-40px", "60px"]}>
-            <img
-              src={SpringRols}
-              alt="plate of spring rolls"
-              className={classes.springrolsImage}
-            />
-          </Parallax>
+          <img
+            src={SpringRols}
+            alt="plate of spring rolls"
+            className={classes.springrolsImage}
+          />
         </div>
       </div>
       <div className={classes.dataContainer5}>
