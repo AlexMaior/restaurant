@@ -27,6 +27,8 @@ import Chilli6 from "../images/chilli6.png";
 import Chilli7 from "../images/chilli7.png";
 import Chilli8 from "../images/chilli8.png";
 import { Link } from "react-router-dom";
+import Wave from "../images/wave.svg";
+import WaveTop from "../images/waveTop.svg";
 
 const Homepage = () => {
   return (
@@ -86,8 +88,9 @@ const Homepage = () => {
               Traditional
             </h2>
           </div>
+
           <div className={classes.chopContainer}>
-            <Parallax translateX={["-50px", "0px"]} rotate={[-5, 20]}>
+            <Parallax translateX={["-10px", "0px"]} rotate={[-15, 20]}>
               <img
                 src={LeftChop}
                 alt={"chopStick"}
@@ -99,7 +102,7 @@ const Homepage = () => {
               alt={"chopStick"}
               className={classes.sushiIng}
             />
-            <Parallax translateX={["50px", "0px"]} rotate={[-5, -10]}>
+            <Parallax translateX={["10px", "0px"]} rotate={[15, -20]}>
               <img
                 src={RightChop}
                 alt={"chopStick"}
@@ -124,16 +127,19 @@ const Homepage = () => {
           <SushiCard img={Sushi5} description={"Sushi 5"} />
           <SushiCard img={Sushi6} description={"Sushi 6"} />
         </div>
+        <img src={WaveTop} alt="wave" className={classes.wavetop} />
       </div>
       <div className={classes.dataContainer3}>
-        <h2 className={classes.dataContainer3Title}>Delivery and Takeout</h2>
+        <div className={classes.dataContainer3TitleCont}>
+          <h2 className={classes.dataContainer3Title}>Delivery and Takeout</h2>
+        </div>
         <div className={classes.dataContainer3MenuContainer}>
           <Link to="/about" className={classes.dataContainer3Menu}>
             M E N U
           </Link>
         </div>
-        <div>
-          <ScrollRotate loops={1} method={"perc"}>
+        <div className={classes.dataCont3RotatingPlate}>
+          <ScrollRotate loops={0.5} animationDuration={0.8} method={"perc"}>
             <img
               src={Sushi7}
               className={classes.dataContainer3Img}
@@ -141,19 +147,35 @@ const Homepage = () => {
             />
           </ScrollRotate>
         </div>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
+        <div className={classes.dataCont3Menu}>
+          <ol className={classes.dataCont3MenuList}>
+            <li>
+              <Link to="/about" className={classes.dataCont3MenuListItem}>
+                APETIZERS
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className={classes.dataCont3MenuListItem}>
+                ENTREES
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className={classes.dataCont3MenuListItem}>
+                EXTRAS
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className={classes.dataCont3MenuListItem}>
+                DESSERTS
+              </Link>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <img src={Wave} alt="wave" />
+      <div className={classes.dataContainer4}>
+        <p>HEllo</p>
+        <div className={classes.dataContainer4TitleCont}></div>
       </div>
       <p>a</p>
       <p>a</p>
