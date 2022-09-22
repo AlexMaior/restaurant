@@ -8,6 +8,9 @@ const SushiCard = (props) => {
       <div className={classes.sushiPopContainer}>
         <img src={props.img} className={classes.sushiSize} alt="sushi" />
         <p className={classes.description}>{props.description}</p>
+        <p className={classes.price}>
+          ${props.price} <sup>{props.cents}</sup>/ piece
+        </p>
       </div>
     </Parallax>
   );

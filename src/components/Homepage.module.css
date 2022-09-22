@@ -208,6 +208,118 @@
 .dataCont3MenuListItem:hover {
   color: white;
 }
+
+.dataContainer4 {
+  background-color: aliceblue;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.dataContainer4GeneralCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dataContainer4Title {
+  padding-top: 30px;
+  font-size: 35px;
+}
+
+.dataContainer4Button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #1f610d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.dataContainer4Button:hover {
+  color: #ff6347;
+}
+
+.springrolsCont {
+  width: 100%;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.springrolsImage {
+  margin-top: 50px;
+  width: 80%;
+}
+
+.chive {
+  width: 70%;
+  transform: scaleX(-1);
+}
+
+.chive2 {
+  width: 70%;
+}
+
+.dataContainer5 {
+  width: 100%;
+  text-align: center;
+  background: rgb(255, 99, 71);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 99, 71, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding-bottom: 150px;
+}
+
+.dataContainer5TitleCont {
+  padding: 30px 0;
+}
+.dataContainer5Title {
+  font-size: 35px;
+}
+
+.blackboardCont {
+  background-image: url("../images/blackboard.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.blackboardContData {
+  padding-top: 60px;
+}
+
+.blackboardContP {
+  font-weight: bold;
+}
+.blackboardContP2 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.blackboardCont p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.social {
+  font-size: 30px;
+  color: tomato;
+  padding: 40px 25px;
+}
+
 @media only screen and (min-width: 300px) {
 }
 

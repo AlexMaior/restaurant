@@ -4,6 +4,11 @@ import classes from "./Homepage.module.css";
 import { ScrollRotate } from "react-scroll-rotate";
 import { Parallax } from "react-scroll-parallax";
 
+import SushiCard from "./SushiCard";
+import { Link } from "react-router-dom";
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 //Images
 import Sushi from "../images/sushi.png";
 import SushiIng from "../images/sushiIng.png";
@@ -17,7 +22,6 @@ import Sushi5 from "../images/sushi5.png";
 import Sushi6 from "../images/sushi6.png";
 import Sushi7 from "../images/sushi7.png";
 import Sushi8 from "../images/sushi8.png";
-import SushiCard from "./SushiCard";
 import Chilli1 from "../images/chilli1.png";
 import Chilli2 from "../images/chilli2.png";
 import Chilli3 from "../images/chilli3.png";
@@ -26,9 +30,10 @@ import Chilli5 from "../images/chilli5.png";
 import Chilli6 from "../images/chilli6.png";
 import Chilli7 from "../images/chilli7.png";
 import Chilli8 from "../images/chilli8.png";
-import { Link } from "react-router-dom";
 import Wave from "../images/wave.svg";
 import WaveTop from "../images/waveTop.svg";
+import SpringRols from "../images/springRols.png";
+import Chive from "../images/chive.png";
 
 const Homepage = () => {
   return (
@@ -120,12 +125,42 @@ const Homepage = () => {
           </ScrollRotate>
         </div>
         <div className={classes.popDishContainer}>
-          <SushiCard img={Sushi1} description={"Sushi 1"} />
-          <SushiCard img={Sushi2} description={"Sushi 2"} />
-          <SushiCard img={Sushi3} description={"Sushi 3"} />
-          <SushiCard img={Sushi4} description={"Sushi 4"} />
-          <SushiCard img={Sushi5} description={"Sushi 5"} />
-          <SushiCard img={Sushi6} description={"Sushi 6"} />
+          <SushiCard
+            img={Sushi1}
+            price={3}
+            cents={99}
+            description={"Sushi 1"}
+          />
+          <SushiCard
+            img={Sushi2}
+            price={3}
+            cents={99}
+            description={"Sushi 2"}
+          />
+          <SushiCard
+            img={Sushi3}
+            price={3}
+            cents={99}
+            description={"Sushi 3"}
+          />
+          <SushiCard
+            img={Sushi4}
+            price={3}
+            cents={99}
+            description={"Sushi 4"}
+          />
+          <SushiCard
+            img={Sushi5}
+            price={3}
+            cents={99}
+            description={"Sushi 5"}
+          />
+          <SushiCard
+            img={Sushi6}
+            price={3}
+            cents={99}
+            description={"Sushi 6"}
+          />
         </div>
         <img src={WaveTop} alt="wave" className={classes.wavetop} />
       </div>
@@ -172,32 +207,92 @@ const Homepage = () => {
           </ol>
         </div>
       </div>
-      <img src={Wave} alt="wave" />
       <div className={classes.dataContainer4}>
-        <p>HEllo</p>
-        <div className={classes.dataContainer4TitleCont}></div>
+        <img src={Wave} alt="wave" className={classes.wavebottom} />
+        <div className={classes.dataContainer4GeneralCont}>
+          <div className={classes.chiveCont}>
+            <Parallax speed={-10}>
+              <img src={Chive} alt="green leaves" className={classes.chive} />
+            </Parallax>
+          </div>
+          <div>
+            <div className={classes.dataContainer4TitleCont}>
+              <h2 className={classes.dataContainer4Title}>Book a Table</h2>
+            </div>
+            <div className={classes.dataContainer4ContentCont}>
+              <h2>in</h2>
+              <h2>our</h2>
+              <h2>restaurant</h2>
+            </div>
+          </div>
+          <div className={classes.chiveCont}>
+            <Parallax speed={-10}>
+              <img src={Chive} alt="green leaves" className={classes.chive2} />
+            </Parallax>
+          </div>
+        </div>
+        <Link to="/about" className={classes.dataContainer4Button}>
+          BOOK ONLINE
+        </Link>
+        <div className={classes.springrolsCont}>
+          <Parallax translateX={["-40px", "60px"]}>
+            <img
+              src={SpringRols}
+              alt="plate of spring rolls"
+              className={classes.springrolsImage}
+            />
+          </Parallax>
+        </div>
       </div>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
-      <p>a</p>
+      <div className={classes.dataContainer5}>
+        <div className={classes.dataContainer5TitleCont}>
+          <h2 className={classes.dataContainer5Title}>Contact Us</h2>
+        </div>
+        <div className={classes.blackboardCont}>
+          <div className={classes.blackboardContData}>
+            <p className={classes.blackboardContP}>Open Hours</p>
+            <p>M-F: 9am-11pm</p>
+            <p>S-S: 12am-2am</p>
+            <p className={classes.blackboardContP2}>Call</p>
+            <p>+032622342</p>
+            <p className={classes.blackboardContP2}>Our Address</p>
+            <p>830 NW. Elm Road</p>
+            <p> Brooklyn, NY 11214</p>
+          </div>
+        </div>
+      </div>
+      <div className={classes.footer}>
+        <div>
+          <a
+            href="https://facebook.com"
+            className={classes.social}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookF />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://twitter.com"
+            className={classes.social}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineTwitter />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://instagram.com"
+            className={classes.social}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillInstagram />
+          </a>
+        </div>
+      </div>
     </>
   );
 };
