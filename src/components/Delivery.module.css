@@ -1,0 +1,76 @@
+.dataContainer3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgb(154, 188, 168);
+  background: linear-gradient(180deg, #9abca8 0%, #ff6347 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dataContainer3TitleCont {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dataContainer3Title {
+  width: 250px;
+  margin: 0 20px 0 0;
+  font-size: 35px;
+}
+
+.dataContainer3MenuContainer {
+  width: 100%;
+}
+
+.dataContainer3Menu {
+  margin-left: 30px;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid tomato;
+  border-radius: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  color: black;
+}
+
+.dataContainer3Menu:hover {
+  box-shadow: 0 0 20px tomato;
+}
+.dataCont3RotatingPlate {
+  width: 100%;
+  padding-top: 30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+}
+.dataContainer3Img {
+  width: 90%;
+}
+
+.dataCont3Menu {
+  width: 100%;
+}
+
+.dataCont3MenuList {
+  list-style: none;
+  text-align: right;
+  margin-right: 25px;
+  font-size: 25px;
+}
+.dataCont3MenuList li {
+  padding: 5px 0;
+}
+.dataCont3MenuListItem {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  padding: 5px 0;
+}
+
+.dataCont3MenuListItem:hover {
+  color: white;
+}

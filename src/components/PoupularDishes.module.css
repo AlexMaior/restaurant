@@ -1,0 +1,32 @@
+.dataContainer2 {
+  background-image: url("../images/popDishBack.jpg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dataContainer2TitleContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dataContainer2Title {
+  padding: 0 15px;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+
+.popDishContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sushi8 {
+  width: 50px;
+}

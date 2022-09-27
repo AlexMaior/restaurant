@@ -1,0 +1,10 @@
+.chilliContainer {
+  transform: rotate(340deg);
+  width: 120%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.chilli {
+  width: 70%;
+}

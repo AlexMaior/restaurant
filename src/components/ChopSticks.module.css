@@ -1,0 +1,28 @@
+.dataContainerDiv2 {
+  background-color: tomato;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.dataContainerDiv2Description {
+  font-size: 35px;
+}
+
+.chopContainer {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftChop,
+.rightChop {
+  /* width: 60%; */
+  width: 20px;
+}
+
+.sushiIng {
+  width: 150px;
+  height: 150px;
+}
