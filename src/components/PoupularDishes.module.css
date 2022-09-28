@@ -30,3 +30,25 @@
 .sushi8 {
   width: 50px;
 }
+
+@media only screen and (min-width: 900px) {
+  .popDishContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .popDishContainer > * {
+    flex: 50%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .popDishContainer > * {
+    flex: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .popDishContainer > * {
+    flex: 33%;
+  }
+}

@@ -13,6 +13,7 @@
   text-align: right;
   display: flex;
   justify-content: flex-end;
+  background-color: #9abca8;
 }
 
 .dataContainer3Title {
@@ -42,7 +43,6 @@
 }
 .dataCont3RotatingPlate {
   width: 100%;
-  padding-top: 30px;
   overflow-x: hidden;
   overflow-y: hidden;
   text-align: center;
@@ -51,26 +51,73 @@
   width: 90%;
 }
 
-.dataCont3Menu {
-  width: 100%;
+@media only screen and (min-width: 550px) {
+  .dataContainer3Title {
+    width: 100%;
+    margin: 0 20px 0 0;
+    font-size: 35px;
+  }
+
+  .dataCont3RotatingPlate {
+    margin-top: -50px;
+  }
+
+  .dataContainer3Img {
+    width: 70%;
+  }
+
+  .dataContainer3Menu {
+    letter-spacing: 10px;
+  }
 }
 
-.dataCont3MenuList {
-  list-style: none;
-  text-align: right;
-  margin-right: 25px;
-  font-size: 25px;
-}
-.dataCont3MenuList li {
-  padding: 5px 0;
-}
-.dataCont3MenuListItem {
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-  padding: 5px 0;
+@media only screen and (min-width: 700px) {
+  .dataContainer3TitleCont {
+    text-align: center;
+  }
+  .dataContainer3 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .dataCont3RotatingPlate {
+    width: 100%;
+    margin-top: -50px;
+  }
 }
 
-.dataCont3MenuListItem:hover {
-  color: white;
+@media only screen and (min-width: 1100px) {
+  .dataContainer3MenuContainer {
+    text-align: center;
+  }
+  .dataContainer3 {
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  .dataCont3RotatingPlate {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .dataContainer3Img {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .dataContainer3Img {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .dataContainer3MenuContainer {
+    text-align: right;
+  }
+  .dataContainer3 {
+    height: 600px;
+  }
+  .dataContainer3Menu {
+    letter-spacing: 15px;
+  }
 }

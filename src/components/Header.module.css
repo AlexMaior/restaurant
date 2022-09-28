@@ -27,3 +27,39 @@
   font-size: 55px;
   margin: 0;
 }
+
+@media only screen and (min-width: 700px) {
+  .titleh2 {
+    font-size: 45px;
+  }
+  .titleh1 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .titleh2 {
+    font-size: 45px;
+  }
+  .titleh1 {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .titleh2 {
+    font-size: 55px;
+  }
+  .titleh1 {
+    font-size: 85px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .titleh2 {
+    font-size: 75px;
+  }
+  .titleh1 {
+    font-size: 125px;
+  }
+}

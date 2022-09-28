@@ -1,5 +1,5 @@
 .dataContainerDiv2 {
-  background-color: tomato;
+  background-color: #ff6347;
   overflow-x: hidden;
   overflow-y: hidden;
   text-align: center;
@@ -18,11 +18,37 @@
 
 .leftChop,
 .rightChop {
-  /* width: 60%; */
   width: 20px;
 }
 
 .sushiIng {
   width: 150px;
   height: 150px;
+}
+
+@media only screen and (min-width: 550px) {
+  .chopContainer {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .chopContainer {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .dataContainerDiv2 {
+    width: 100%;
+
+    /* background-color: #ff634700; */
+  }
+  .chopContainer {
+    width: 50%;
+  }
+  .leftChop,
+  .rightChop {
+    width: 30px;
+  }
 }

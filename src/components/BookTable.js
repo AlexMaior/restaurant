@@ -16,25 +16,26 @@ const BookTable = () => {
             <img src={Chive} alt="green leaves" className={classes.chive} />
           </Parallax>
         </div>
-        <div>
-          <div className={classes.dataContainer4TitleCont}>
-            <h2 className={classes.dataContainer4Title}>Book a Table</h2>
+        <Parallax speed={-10}>
+          <div>
+            <div className={classes.dataContainer4TitleCont}>
+              <h2 className={classes.dataContainer4Title}>Book a Table</h2>
+            </div>
+            <div className={classes.dataContainer4ContentCont}>
+              <h2>in our</h2>
+              <h2>restaurant</h2>
+              <Link to="/about" className={classes.dataContainer4Button}>
+                <div>BOOK ONLINE</div>
+              </Link>
+            </div>
           </div>
-          <div className={classes.dataContainer4ContentCont}>
-            <h2>in</h2>
-            <h2>our</h2>
-            <h2>restaurant</h2>
-          </div>
-        </div>
+        </Parallax>
         <div className={classes.chiveCont}>
           <Parallax speed={-10}>
             <img src={Chive} alt="green leaves" className={classes.chive2} />
           </Parallax>
         </div>
       </div>
-      <Link to="/about" className={classes.dataContainer4Button}>
-        BOOK ONLINE
-      </Link>
       <div className={classes.springrolsCont}>
         <img
           src={SpringRols}

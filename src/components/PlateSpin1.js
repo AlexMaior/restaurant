@@ -7,7 +7,8 @@ const PlateSpin1 = () => {
   return (
     <div className={classes.dataContainerDiv1}>
       <p className={classes.dataContainerDiv1Description}>
-        ORGANIC AND NATURALLY GROWN, COOKED IN JAPANESE TRADITIONAL RECIPE.
+        ORGANIC AND NATURALLY GROWN, <br />
+        COOKED IN JAPANESE TRADITIONAL RECIPE.
       </p>
       <div className={classes.sushi}>
         <ScrollRotate loops={1} method={"perc"}>

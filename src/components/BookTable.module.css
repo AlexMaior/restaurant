@@ -1,5 +1,5 @@
 .dataContainer4 {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -16,13 +16,16 @@
   font-size: 35px;
 }
 
+.dataContainer4ContentCont div {
+  background-color: #1f610d;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .dataContainer4Button {
   font-size: 20px;
-  padding: 10px;
-  background-color: #1f610d;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
 }
 
 .dataContainer4Button:hover {
@@ -30,8 +33,8 @@
 }
 
 .springrolsCont {
+  margin-top: 50px;
   width: 100%;
-
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -48,4 +51,38 @@
 
 .chive2 {
   width: 70%;
+}
+
+@media only screen and (min-width: 700px) {
+  .chive,
+  .chive2 {
+    width: 50%;
+  }
+  .springrolsImage {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .springrolsImage {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .dataContainer4GeneralCont {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .springrolsImage {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .dataContainer4GeneralCont {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .springrolsImage {
+    width: 20%;
+  }
 }

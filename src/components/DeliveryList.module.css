@@ -1,0 +1,39 @@
+.dataCont3Menu {
+  width: 100%;
+}
+
+.dataCont3MenuList {
+  list-style: none;
+  text-align: right;
+  margin-right: 25px;
+  font-size: 25px;
+  padding: 0;
+}
+.dataCont3MenuList li {
+  padding: 15px 0;
+}
+.dataCont3MenuListItem {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  padding: 5px 0;
+}
+
+.dataCont3MenuListItem:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 1100px) {
+  .dataCont3MenuList {
+    text-align: center;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .dataCont3MenuList {
+    text-align: left;
+  }
+  .dataCont3MenuList li {
+    padding: 25px 0;
+  }
+}
