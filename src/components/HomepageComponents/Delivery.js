@@ -4,7 +4,7 @@ import classes from "./Delivery.module.css";
 import { ScrollRotate } from "react-scroll-rotate";
 import { Link } from "react-router-dom";
 
-import Sushi7 from "../images/sushi7.png";
+import Sushi7 from "../../images/sushi7.png";
 import DeliveryList from "./DeliveryList";
 
 const Delivery = () => {

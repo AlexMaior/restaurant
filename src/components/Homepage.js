@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Homepage.module.css";
 
-import Header from "./Header";
-import FoodType from "./FoodType";
-import PopularDishes from "./PopularDishes";
-import Delivery from "./Delivery";
-import BookTable from "./BookTable";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Header from "./HomepageComponents/Header";
+import FoodType from "./HomepageComponents/FoodType";
+import PopularDishes from "./HomepageComponents/PopularDishes";
+import Delivery from "./HomepageComponents/Delivery";
+import BookTable from "./HomepageComponents/BookTable";
+import Contact from "./HomepageComponents/Contact";
+import Footer from "./HomepageComponents/Footer";
 
 const Homepage = () => {
   return (

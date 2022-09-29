@@ -3,9 +3,9 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/NavigationComponents/Navigation";
 import { ParallaxProvider } from "react-scroll-parallax";
-import NavigationMobile from "./components/NavigationMobile";
+import NavigationMobile from "./components/NavigationComponents/NavigationMobile";
 import { useEffect } from "react";
 import Menu from "./components/Menu";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { ScrollRotate } from "react-scroll-rotate";
 import classes from "./PlateSpin1.module.css";
-import Sushi from "../images/sushi.png";
+import Sushi from "../../images/sushi.png";
 
 const PlateSpin1 = () => {
   return (

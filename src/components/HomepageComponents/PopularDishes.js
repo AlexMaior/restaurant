@@ -2,14 +2,14 @@ import React from "react";
 import classes from "./PoupularDishes.module.css";
 import { ScrollRotate } from "react-scroll-rotate";
 
-import Sushi1 from "../images/sushi1.png";
-import Sushi2 from "../images/sushi2.png";
-import Sushi3 from "../images/sushi3.png";
-import Sushi4 from "../images/sushi4.png";
-import Sushi5 from "../images/sushi5.png";
-import Sushi6 from "../images/sushi6.png";
-import Sushi8 from "../images/sushi8.png";
-import WaveTop from "../images/waveTop.svg";
+import Sushi1 from "../../images/sushi1.png";
+import Sushi2 from "../../images/sushi2.png";
+import Sushi3 from "../../images/sushi3.png";
+import Sushi4 from "../../images/sushi4.png";
+import Sushi5 from "../../images/sushi5.png";
+import Sushi6 from "../../images/sushi6.png";
+import Sushi8 from "../../images/sushi8.png";
+import WaveTop from "../../images/waveTop.svg";
 import SushiCard from "./SushiCard";
 
 const PopularDishes = () => {

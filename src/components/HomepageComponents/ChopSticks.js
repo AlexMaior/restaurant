@@ -1,9 +1,9 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import classes from "./ChopSticks.module.css";
-import SushiIng from "../images/sushiIng.png";
-import LeftChop from "../images/left.png";
-import RightChop from "../images/right.png";
+import SushiIng from "../../images/sushiIng.png";
+import LeftChop from "../../images/left.png";
+import RightChop from "../../images/right.png";
 
 const ChopSticks = () => {
   return (

@@ -1,0 +1,57 @@
+.menuContainer {
+  background-color: black;
+  min-height: 100vh;
+  background-image: url("../images/popDishBack2.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.titleContainer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title {
+  /* padding-top: 30px; */
+  color: rgb(192, 192, 192);
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.menuMixContainer {
+  text-align: center;
+}
+
+.menuMixImg {
+  width: 60%;
+}
+
+.menuListContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.menuItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dashed tomato;
+}
+
+.menuItemTitle {
+  color: aliceblue;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.menuItemPrice {
+  color: aliceblue;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.menuItemPriceCent {
+  color: tomato;
+}

@@ -1,6 +1,6 @@
 .headerImg {
   height: 100vh;
-  background-image: url(../images/bannerImg.jpg);
+  background-image: url("../../images/bannerImg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

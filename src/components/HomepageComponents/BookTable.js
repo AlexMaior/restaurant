@@ -2,9 +2,9 @@ import React from "react";
 import classes from "./BookTable.module.css";
 import { Parallax } from "react-scroll-parallax";
 import { Link } from "react-router-dom";
-import Wave from "../images/wave.svg";
-import SpringRols from "../images/springRols.png";
-import Chive from "../images/chive.png";
+import Wave from "../../images/wave.svg";
+import SpringRols from "../../images/springRols.png";
+import Chive from "../../images/chive.png";
 
 const BookTable = () => {
   return (

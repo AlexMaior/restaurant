@@ -2,14 +2,14 @@ import React from "react";
 import classes from "./Chilli.module.css";
 
 import { Parallax } from "react-scroll-parallax";
-import Chilli1 from "../images/chilli1.png";
-import Chilli2 from "../images/chilli2.png";
-import Chilli3 from "../images/chilli3.png";
-import Chilli4 from "../images/chilli4.png";
-import Chilli5 from "../images/chilli5.png";
-import Chilli6 from "../images/chilli6.png";
-import Chilli7 from "../images/chilli7.png";
-import Chilli8 from "../images/chilli8.png";
+import Chilli1 from "../../images/chilli1.png";
+import Chilli2 from "../../images/chilli2.png";
+import Chilli3 from "../../images/chilli3.png";
+import Chilli4 from "../../images/chilli4.png";
+import Chilli5 from "../../images/chilli5.png";
+import Chilli6 from "../../images/chilli6.png";
+import Chilli7 from "../../images/chilli7.png";
+import Chilli8 from "../../images/chilli8.png";
 
 const Chilli = () => {
   return (
