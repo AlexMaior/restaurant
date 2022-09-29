@@ -1,15 +1,14 @@
 import React from "react";
 import MenuList from "./MenuData";
 import { ScrollRotate } from "react-scroll-rotate";
-import { Parallax } from "react-scroll-parallax";
 import classes from "./Menu.module.css";
 import MenuMix from "../images/menuMix.png";
+import Plate from "../images/plate.png";
+import Footer from "./HomepageComponents/Footer";
 
 const Menu = () => {
   return (
     <div className={classes.menuContainer}>
-      <br />
-      <br />
       <br />
       <br />
       <div className={classes.titleContainer}>
@@ -28,46 +27,19 @@ const Menu = () => {
       </div>
       <div className={classes.menuListContainer}>
         {MenuList.map((item) => (
-          <Parallax speed={15} id={item.id}>
-            <div className={classes.menuItemContainer}>
-              <p className={classes.menuItemTitle}>{item.title}</p>
-              <p className={classes.menuItemPrice}>
-                {item.price}
-                <sup className={classes.menuItemPriceCent}>
-                  {item.priceCent}
-                </sup>
-              </p>
-            </div>
-          </Parallax>
+          <div className={classes.menuItemContainer}>
+            <p className={classes.menuItemTitle}>{item.title}</p>
+            <p className={classes.menuItemPrice}>
+              ${item.price}
+              <sup className={classes.menuItemPriceCent}>{item.priceCent}</sup>
+            </p>
+          </div>
         ))}
       </div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      this is About
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
-      <div>p</div>
+      <div className={classes.menuFooterContainer}>
+        <img src={Plate} className={classes.menuFooterPlate} alt="food plate" />
+      </div>
+      <Footer />
     </div>
   );
 };

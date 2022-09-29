@@ -33,7 +33,7 @@ const NavigationMobile = () => {
             : `${classes.burger}  ${classes.sizeWhenNoScroll}`
         }
       >
-        <p>LOGO</p>
+        <span>LOGO</span>
         <GiHamburgerMenu onClick={clickHandler} />
       </div>
       <div

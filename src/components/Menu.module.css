@@ -9,12 +9,10 @@
 }
 
 .titleContainer {
-  margin-top: 40px;
   text-align: center;
 }
 
 .title {
-  /* padding-top: 30px; */
   color: rgb(192, 192, 192);
   font-size: 40px;
   letter-spacing: 5px;
@@ -29,8 +27,10 @@
 }
 
 .menuListContainer {
+  max-width: 700px;
   width: 70%;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .menuItemContainer {
@@ -38,6 +38,8 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px dashed tomato;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .menuItemTitle {
@@ -54,4 +56,15 @@
 
 .menuItemPriceCent {
   color: tomato;
+}
+
+.menuFooterContainer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menuFooterPlate {
+  width: 90%;
+  max-width: 700px;
 }
