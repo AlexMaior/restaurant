@@ -34,7 +34,7 @@ function App() {
       {windowSize.innerWidth < 600 ? <NavigationMobile /> : <Navigation />}
       <ParallaxProvider>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" exact element={<Homepage />} />
           <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Menu />} />
         </Routes>
