@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage";
-import About from "./components/About";
 import Navigation from "./components/NavigationComponents/Navigation";
 import { ParallaxProvider } from "react-scroll-parallax";
 import NavigationMobile from "./components/NavigationComponents/NavigationMobile";
@@ -35,8 +34,8 @@ function App() {
       <ParallaxProvider>
         <Routes>
           <Route path="/" exact element={<Homepage />} />
-          <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="*" element={<Menu />} />
         </Routes>
       </ParallaxProvider>
     </Router>

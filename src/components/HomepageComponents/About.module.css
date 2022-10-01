@@ -1,0 +1,67 @@
+.about {
+  background-color: tomato;
+  padding: 50px 0;
+}
+.aboutTitleContainer {
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 40px;
+  margin: 0;
+}
+
+.aboutDescriptionImageContainer {
+  text-align: center;
+}
+
+.aboutDescriptionImage {
+  width: 50%;
+}
+
+.aboutDescriptionContainer {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.aboutDescriptionContainerText {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .aboutDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutDescription {
+    width: 100%;
+  }
+  .aboutDescriptionImageContainer {
+    width: 30%;
+    padding-left: 20px;
+  }
+  .aboutDescriptionImage {
+    width: 100%;
+  }
+  .aboutDescriptionContainer {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .aboutDescription {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .aboutDescriptionImageContainer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .aboutDescription {
+    width: 60%;
+  }
+}

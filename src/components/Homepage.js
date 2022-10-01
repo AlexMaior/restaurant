@@ -8,6 +8,7 @@ import Delivery from "./HomepageComponents/Delivery";
 import BookTable from "./HomepageComponents/BookTable";
 import Contact from "./HomepageComponents/Contact";
 import Footer from "./HomepageComponents/Footer";
+import About from "./HomepageComponents/About";
 
 const Homepage = () => {
   return (
@@ -18,6 +19,7 @@ const Homepage = () => {
         <PopularDishes />
         <Delivery />
         <BookTable />
+        <About />
         <Contact />
         <Footer />
       </div>

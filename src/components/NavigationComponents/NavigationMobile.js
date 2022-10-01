@@ -53,13 +53,7 @@ const NavigationMobile = () => {
           <NavLink to="/" className={classes.navLink} onClick={clickHandler}>
             Home
           </NavLink>
-          <NavLink
-            to="/about"
-            className={classes.navLink}
-            onClick={clickHandler}
-          >
-            About
-          </NavLink>
+
           <NavLink
             to="/menu"
             className={classes.navLink}

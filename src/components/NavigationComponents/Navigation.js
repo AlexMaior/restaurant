@@ -30,9 +30,7 @@ const Navigation = () => {
         <NavLink to="/" className={classes.navLink}>
           Home
         </NavLink>
-        <NavLink to="/about" className={classes.navLink}>
-          About
-        </NavLink>
+
         <NavLink to="/menu" className={classes.navLink}>
           Menu
         </NavLink>
