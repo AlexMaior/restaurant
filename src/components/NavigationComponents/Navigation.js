@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import classes from "./Navigation.module.css";
 
@@ -18,6 +18,9 @@ const Navigation = () => {
   };
   window.onscroll = scrollHandler;
 
+  const clickHandler = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className={classes.navigationContainer}>
       <nav
@@ -27,13 +30,20 @@ const Navigation = () => {
             : `${classes.navigation} ${classes.sizeWhenNoScroll}`
         }
       >
-        <NavLink to="/" className={classes.navLink}>
-          Home
-        </NavLink>
+        <div>
+          <Link to="/" className={classes.logo} onClick={clickHandler}>
+            <span>LOGO</span>
+          </Link>
+        </div>
+        <div>
+          <NavLink to="/" className={classes.navLink}>
+            Home
+          </NavLink>
 
-        <NavLink to="/menu" className={classes.navLink}>
-          Menu
-        </NavLink>
+          <NavLink to="/menu" className={classes.navLink}>
+            Menu
+          </NavLink>
+        </div>
       </nav>
     </div>
   );

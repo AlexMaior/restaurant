@@ -6,9 +6,16 @@
 
 .navigation {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
   transition: 0.5s;
+  font-size: 25px;
+}
+
+.navigation div {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .sizeWhenScroll {
@@ -17,6 +24,10 @@
 }
 .sizeWhenNoScroll {
   padding: 10px 0;
+}
+
+.logo {
+  text-decoration: none;
 }
 
 .navLink {

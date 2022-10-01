@@ -7,6 +7,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import NavigationMobile from "./components/NavigationComponents/NavigationMobile";
 import { useEffect } from "react";
 import Menu from "./components/Menu";
+import UpArrow from "./components/UpArrow";
 
 function App() {
   const [windowSize, setWindowSize] = useState(getWindowSize());
@@ -31,6 +32,7 @@ function App() {
   return (
     <Router>
       {windowSize.innerWidth < 600 ? <NavigationMobile /> : <Navigation />}
+      <UpArrow />
       <ParallaxProvider>
         <Routes>
           <Route path="/" exact element={<Homepage />} />

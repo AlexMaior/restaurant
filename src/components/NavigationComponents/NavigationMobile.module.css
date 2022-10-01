@@ -21,6 +21,10 @@
   background-color: white;
 }
 
+.logo {
+  text-decoration: none;
+}
+
 .navLink {
   padding: 10px 15px;
   margin: 0 5px;

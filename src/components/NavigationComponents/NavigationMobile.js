@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import classes from "./NavigationMobile.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -22,7 +22,12 @@ const NavigationMobile = () => {
       setScroll(false);
     }
   };
+
   window.onscroll = scrollHandler;
+
+  const clickHandlerScroll = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div className={classes.navigationContainer}>
@@ -33,7 +38,9 @@ const NavigationMobile = () => {
             : `${classes.burger}  ${classes.sizeWhenNoScroll}`
         }
       >
-        <span>LOGO</span>
+        <Link to="/" className={classes.logo} onClick={clickHandlerScroll}>
+          <span>LOGO</span>
+        </Link>
         <GiHamburgerMenu onClick={clickHandler} />
       </div>
       <div
